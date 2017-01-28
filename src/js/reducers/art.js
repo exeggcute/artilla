@@ -1,5 +1,6 @@
 import ActionConstants from '../ActionConstants';
 
+
 const initialState = {
     apiStatus: {
         isFetching: false,
@@ -8,15 +9,15 @@ const initialState = {
     arts: {}
 };
 
-export default function form(state = initialState, action) {
+
+export default function art(state = initialState, action) {
     let arts;
     let apiStatus;
 
     switch (action.type) {
         case ActionConstants.UPDATE_API_STATE:
-            apiStatus = {...state.apiStatus};
             apiStatus = {
-                ...apiStatus,
+                ...state.apiStatus,
                 isFetching: action.isFetching,
                 error: action.error
             };

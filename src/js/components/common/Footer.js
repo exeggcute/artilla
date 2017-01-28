@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Footer() {
+export default function Footer() {
     return (
-        <footer className="footer"><i className="fa fa-smile-o" /></footer>
+        <footer className="footer">
+            <i className="fa fa-smile-o" />
+        </footer>
     );
 }
-
-export default Footer;

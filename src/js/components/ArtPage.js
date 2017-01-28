@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import {ArtActions} from '../actions';
-
 import {ArtInfo, ArtRecord, Search} from './modules';
 import {Loader, Error} from './common';
 
@@ -32,7 +31,7 @@ class ArtPage extends Component {
         }
 
         return (
-            <div className="container page-art">
+            <div className="page-art">
                 <Search />
                 <div id="js-searchContainer">
                     <ArtInfo art={this.props.art} />

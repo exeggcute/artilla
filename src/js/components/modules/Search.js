@@ -9,7 +9,7 @@ export default class Search extends PureComponent {
 
         this.state = {
             isSearchActive: false,
-            count: 99
+            count: 0
         };
     }
 

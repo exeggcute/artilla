@@ -4,7 +4,7 @@ import {Art} from '../models';
 
 /**
  * @param  {Boolean} isFetching
- * @param  {?Object}  error
+ * @param  {?Object} error
  *
  * @return {Object}
  */
@@ -15,6 +15,7 @@ export function updateApiState(isFetching, error = null) {
         error
     };
 }
+
 
 /**
  * Action creator for storing the received art info in redux stores
