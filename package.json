@@ -1,7 +1,7 @@
 {
   "name": "Artilla",
   "version": "1.0.0",
-  "description": "Test App",
+  "description": "App with simple In-Page full text search",
   "main": "./src/js/app.js",
   "scripts": {
     "build": "webpack",
@@ -9,7 +9,6 @@
     "lint": "eslint .",
     "test": "jest"
   },
-  "author": "Jigar Jain <jjain91@gmail.com> (http://jigarjain.com)",
   "license": "ISC",
   "dependencies": {
     "react": "^15.3.2",

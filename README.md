@@ -1,6 +1,6 @@
-# Test App
+# App with simple In-Page full text search
 
-Demo Link - https://jigarjain.github.io/artilla
+Demo Link - https://exeggcute.github.io/artilla
 
 ### Building the code
 We are following the distribution based build system, where every changes made to the source files, generates a final deployable asset files inside the `dist/` folder. Thus, the `dist/` folder can act as the root for the assets on web server.

@@ -102,6 +102,11 @@
         padding: 0 10px;
         font-weight: 300;
         border: transparent;
+        outline: none;
+
+        &:focus {
+            outline: none;
+        }
     }
 
 
