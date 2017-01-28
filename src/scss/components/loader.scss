@@ -1,0 +1,16 @@
+.loader {
+    margin: 100px auto;
+    text-align: center;
+
+    &__icon {
+        font-size: 50px;
+        color: lighten($brand-color, 15%);
+    }
+
+    &__text {
+        display: block;
+        margin: 30px;
+        font-weight: 300;
+        font-size: 30px;
+    }
+}

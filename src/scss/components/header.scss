@@ -1,0 +1,13 @@
+.header {
+    padding: 0 45px;
+    border-bottom: 1px solid #eee;
+
+
+    &__brand {
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 2;
+        color: $brand-color;
+        letter-spacing: 1px;
+    }
+}

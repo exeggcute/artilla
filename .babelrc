@@ -1,0 +1,7 @@
+{
+    compact: true,
+    comments: false,
+    minified: true,
+    presets: ['es2015', 'stage-2', 'react'],
+    plugins: ['transform-object-rest-spread']
+}
